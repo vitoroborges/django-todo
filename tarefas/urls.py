@@ -7,4 +7,7 @@ urlpatterns = [
     path('cadastroAtividade', views.cadastroAtividade),
     path('cadastroUsuario', views.cadastroUsuario),
     path('excluirAtividade/<int:id>', views.excluirAtividade),
+    path('editarAtividade/<int:id>', views.atualizarCadastro),
+    path('login', views.formlogin),
+    path('logout', views.logout_view)
 ]
